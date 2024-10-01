@@ -1,0 +1,89 @@
+{
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "TokenFabric.xyz | Documentation",
+	"logo": {
+		"dark": "/logo/dark.svg",
+		"light": "/logo/light.svg"
+	},
+	"favicon": "/favicon.svg",
+	"colors": {
+		"primary": "#40B1CF",
+		"light": "#81CCDF",
+		"dark": "#40B1CF",
+		"anchors": {
+			"from": "#40B1CF",
+			"to": "#81CCDF"
+		}
+	},
+	"topbarLinks": [
+		{
+			"name": "Support",
+			"url": "mailto:contact@tokenfabric.xyz"
+		}
+	],
+	"topbarCtaButton": {
+		"name": "dApp",
+		"url": "https://tokenfabric.xyz"
+	},
+	"tabs": [
+		{
+			"name": "SDK & Integration",
+			"url": "sdk-integration"
+		}
+	],
+	"anchors": [
+		{
+			"name": "Fundation",
+			"icon": "book-open-cover",
+      "url": "https://tokenfabric.xyz"
+		},
+    {
+      "name": "dApp",
+			"icon": "book-open-cover",
+      "url": "https://tokenfabric.xyz"
+    },
+		{
+			"name": "Community",
+			"icon": "discord",
+			"url": "https://discord.gg/yn4wdufRCs"
+		}
+	],
+	"navigation": [
+		{
+			"group": "Get Started",
+			"pages": ["documentation/get-started/introduction", "documentation/get-started/create-first-asset", "documentation/get-started/explore-ecosystem", "documentation/get-started/affiliation-program"]
+		},
+		{
+			"group": "Essentials",
+			"pages": [
+				"documentation/essentials/asset-creation",
+				"documentation/essentials/customizable-tokenomics",
+				"documentation/essentials/bonding-curve",
+				"documentation/essentials/royalties",
+				"documentation/essentials/locks",
+				"documentation/essentials/multi-payment",
+        "documentation/essentials/wallet-integration",
+        "documentation/essentials/asset-management",
+        "documentation/essentials/bridge"
+			]
+		},
+		{
+			"group": "SDK Documentation",
+			"pages": ["sdk-integration/introduction"]
+		},
+		{
+			"group": "Contracts Endpoints",
+			"pages": [
+				"sdk-integration/endpoint/get",
+				"sdk-integration/endpoint/create",
+				"sdk-integration/endpoint/delete"
+			]
+		}
+	],
+	"footerSocials": {
+		"x": "https://x.com/tokenfabric",
+		"github": "https://github.com/TokenFabric-xyz",
+		"linkedin": "https://www.linkedin.com/company/tokenfabric-xyz",
+		"discord": "https://discord.gg/yn4wdufRCs"
+	}
+}
