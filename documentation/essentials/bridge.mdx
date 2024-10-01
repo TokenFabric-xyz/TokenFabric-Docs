@@ -2,3 +2,84 @@
 title: 'Cross-Chain Bridge'
 description: 'Native bridging powered by Chainlink CCIP'
 ---
+
+# Cross-Chain Bridge
+
+TokenFabric integrates a powerful cross-chain bridging feature, leveraging Chainlink's Cross-Chain Interoperability Protocol (CCIP) to enable seamless token transfers across different blockchain networks. This native integration allows builders to easily bridge and send their tokens to supported networks, enhancing the interoperability and reach of their digital assets.
+
+## How It Works
+
+Our bridge utilizes Chainlink CCIP's Arbitrary Messaging capability, which allows for the sending of custom data between blockchains. This feature enables complex, multi-step, cross-chain operations, providing flexibility and power to token creators and users.
+
+### Key Features
+
+- **Native Integration**: Bridge functionality is built directly into the TokenFabric protocol.
+- **Arbitrary Messaging**: Enables sending custom data and instructions across chains.
+- **Preserve Token Properties**: Maintains token supply and security across networks.
+- **Easy Activation**: Permissionless route activation available during token creation.
+
+## Supported Networks
+
+Currently, TokenFabric supports bridging between:
+
+- Ethereum
+- Base
+
+<Note>
+We are actively testing and expanding our network support. Stay tuned for updates on additional networks.
+</Note>
+
+## Using the Bridge
+
+To use the TokenFabric bridge:
+
+1. Create your token on TokenFabric.
+2. During the creation process, you'll have the option to enable cross-chain functionality.
+3. Select the networks you want your token to be available on.
+4. Complete the token creation process.
+
+Once set up, users can bridge tokens between supported networks directly through the TokenFabric interface.
+
+## Fees and Royalties
+
+Using the bridge incurs two types of fees:
+
+1. **Protocol Fee**: A small fee charged by TokenFabric to maintain and secure the bridging infrastructure.
+2. **Builder Fee**: A customizable royalty that token creators can set to earn from cross-chain transfers.
+
+<Note>
+Exact fee structures are currently being determined and will be announced soon.
+</Note>
+
+## Security and Limitations
+
+Our bridge is designed with security as a top priority. However, during the alpha testing phase, there may be certain limitations:
+
+- A builder whitelist may be implemented to ensure controlled testing.
+- Transaction limits may be in place to manage risk.
+
+These limitations will be lifted as we move towards a fully permissionless system.
+
+## Advantages Over Traditional Bridges
+
+The TokenFabric native bridge offers several advantages:
+
+1. **Seamless Integration**: No need to leave the TokenFabric ecosystem to bridge tokens.
+2. **Customized for TokenFabric Tokens**: Optimized to work with tokens created on our platform.
+3. **Royalty Preservation**: Ensures that token creators continue to earn royalties on cross-chain transfers.
+4. **Enhanced Security**: Built with TokenFabric's security standards in mind.
+
+## Future Developments
+
+We are continuously working to improve and expand our bridging capabilities. Future updates may include:
+
+- Support for additional networks
+- Enhanced arbitrary messaging features
+- Optimized fee structures
+- Advanced cross-chain token utilities
+
+Stay connected with our [community](/more/explore-ecosystem) to keep up with the latest developments and provide your feedback on this exciting feature.
+
+<Card title="Create Your First Cross-Chain Token" icon="rocket" href="/guides/create-asset">
+  Ready to leverage the power of cross-chain functionality? Learn how to create and bridge your token now!
+</Card>

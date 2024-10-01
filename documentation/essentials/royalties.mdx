@@ -2,3 +2,88 @@
 title: 'Royalties'
 description: 'Set up royalties, buy-back mechanisms, and budget automation'
 ---
+
+# Royalties in TokenFabric
+
+TokenFabric empowers builders to implement sophisticated royalty structures for their digital assets. This feature allows for ongoing value capture and automated budget allocation, enhancing the sustainability and utility of your token ecosystem.
+
+## Understanding Royalties
+
+Royalties in TokenFabric are fees automatically collected on token transactions. They can be set for both buying and selling actions, providing flexibility in how value is captured from token movement.
+
+### Key Features
+
+- **Separate Buy and Sell Royalties**: Set different royalty percentages for buy and sell transactions.
+- **Immutable After Deployment**: Royalty rates are fixed upon token creation, ensuring transparency and trust for token holders.
+- **Dual Wallet Distribution**: Royalties can be split between two distinct wallets, with adjustable allocation percentages.
+
+## Setting Up Royalties
+
+When creating your token through TokenFabric, you'll have the option to define:
+
+1. Buy royalty percentage
+2. Sell royalty percentage
+3. Primary royalty recipient wallet
+4. Secondary royalty recipient wallet (optional)
+5. Split percentage between the two wallets
+
+<Note>
+  The split percentage between wallets can be updated after deployment, but the royalty percentages themselves cannot be changed.
+</Note>
+
+## Best Practices for Royalty Rates
+
+The optimal royalty rate depends on your token's purpose and market. Consider the following:
+
+- **Liquid Trading Tokens**: For ERC20 tokens intended for frequent trading, lower royalty rates (e.g., 0.1% - 1%) are typical to encourage liquidity.
+- **Digital Art or Collectibles**: NFTs or limited-edition tokens may support higher royalty rates (e.g., 5% - 10%) to provide ongoing revenue for creators.
+- **Utility Tokens**: Consider the token's use case and compare with similar projects in the ecosystem to set competitive rates.
+
+Always balance the desire for revenue with the need to maintain an attractive and functional token economy for users.
+
+## Advanced Royalty Mechanisms
+
+TokenFabric allows for sophisticated use of royalties through automated mechanisms:
+
+### Buy-Back Mechanism
+
+Automatically use a portion of royalties to repurchase tokens from the market. This can help:
+- Increase token value
+- Reduce circulating supply
+- Demonstrate confidence in the project
+
+### Budget Automation
+
+Direct royalties to specific wallets or smart contracts for automatic budget allocation:
+- DAO Treasury: Fund ongoing operations and community initiatives
+- Development Fund: Ensure continuous improvement of the project
+- Staking Rewards: Incentivize long-term token holding
+
+### Burn Address Allocation
+
+Automatically send a percentage of royalties to a burn address, creating deflationary pressure on the token supply.
+
+## Implementation Example
+
+Here's how you might set up royalties for a hypothetical token:
+| Setting | Value |
+|---------|-------|
+| Token Name | ExampleToken (EXT) |
+| Buy Royalty | 1% |
+| Sell Royalty | 1.5% |
+| Primary Wallet (DAO Treasury) | 70% of royalties |
+| Secondary Wallet (Buy-Back Contract) | 30% of royalties |
+
+In this setup, every purchase of EXT incurs a 1% fee, and every sale a 1.5% fee. Of the collected royalties, 70% goes to the DAO treasury for ongoing operations, while 30% is used in a smart contract to automatically buy back and burn EXT tokens.
+
+## Real-World Use Cases
+
+1. **Zenvest**: Utilizes royalties to provide recurring revenue to stakeholders, creating a sustainable investment ecosystem.
+
+2. **TokenFabric Foundation**: Implements royalty mechanisms to fund ongoing development and community initiatives, ensuring the long-term growth of the platform.
+
+By leveraging TokenFabric's flexible royalty system, projects can create self-sustaining economies that benefit all participants in the ecosystem.
+
+<Card title="Need Help?" icon="question" href="mailto:support@tokenfabric.xyz">
+  Our team is here to assist you in setting up the optimal royalty structure for your project. Don't hesitate to reach out!
+</Card>

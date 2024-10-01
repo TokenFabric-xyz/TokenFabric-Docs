@@ -29,11 +29,15 @@
 		{
 			"name": "SDK & Integration",
 			"url": "sdk-integration"
+		},
+    {
+			"name": "News & Updates",
+			"url": "devlogs"
 		}
 	],
 	"anchors": [
 		{
-			"name": "Fundation",
+			"name": "Ecosystem",
 			"icon": "book-open-cover",
       "url": "https://tokenfabric.xyz"
 		},
@@ -51,7 +55,7 @@
 	"navigation": [
 		{
 			"group": "Get Started",
-			"pages": ["documentation/get-started/introduction", "documentation/get-started/create-first-asset", "documentation/get-started/explore-ecosystem", "documentation/get-started/affiliation-program"]
+			"pages": ["documentation/get-started/introduction", "documentation/get-started/create-first-asset"]
 		},
 		{
 			"group": "Essentials",
@@ -67,6 +71,10 @@
         "documentation/essentials/bridge"
 			]
 		},
+    {
+			"group": "More",
+			"pages": ["documentation/more/explore-ecosystem", "documentation/more/roadmap", "documentation/more/affiliation-program"]
+		},
 		{
 			"group": "SDK Documentation",
 			"pages": ["sdk-integration/introduction"]
@@ -78,6 +86,10 @@
 				"sdk-integration/endpoint/create",
 				"sdk-integration/endpoint/delete"
 			]
+		},
+    {
+			"group": "Devlogs",
+			"pages": ["devlogs/news"]
 		}
 	],
 	"footerSocials": {
