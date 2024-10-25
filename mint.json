@@ -27,6 +27,10 @@
 	},
 	"tabs": [
 		{
+			"name": "Tutorials",
+			"url": "tutorials"
+		},
+		{
 			"name": "SDK & Integration",
 			"url": "sdk-integration"
 		},
@@ -90,6 +94,14 @@
     {
 			"group": "Devlogs",
 			"pages": ["devlogs/news"]
+		},
+		{
+			"group": "Getting Started",
+			"pages": ["tutorials/getting-started/start-here", "tutorials/getting-started/understanding-wallets", "tutorials/getting-started/security-essentials"]
+		},
+		{
+			"group": "Essentials",
+			"pages": ["tutorials/essentials/buying-sell-crypto-fiat", "tutorials/essentials/understanding-gas", "tutorials/essentials/transferring-assets", "tutorials/essentials/swapping-assets","tutorials/essentials/bridging-assets"]
 		}
 	],
 	"footerSocials": {

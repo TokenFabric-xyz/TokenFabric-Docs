@@ -1,0 +1,230 @@
+---
+title: 'Understanding Bonding Curves'
+description: 'Learn about automated market makers and price mechanisms on TokenFabric'
+---
+
+# Understanding Bonding Curves
+
+Bonding curves are automated market makers that determine token prices based on supply and demand. TokenFabric offers several curve types to suit different project needs.
+
+## What is a Bonding Curve?
+
+### Basic Concept
+A bonding curve is a mathematical formula that:
+- Automatically sets token prices
+- Manages buy/sell operations
+- Creates predictable pricing
+- Ensures constant liquidity
+
+### How It Works
+1. **Price Calculation**
+   - Based on current supply
+   - Adjusts automatically
+   - Transparent mechanism
+   - Continuous liquidity
+
+2. **Key Benefits**
+   - Always liquid
+   - Predictable pricing
+   - No order books
+   - Instant trades
+
+## TokenFabric Curve Types
+
+### 1. Linear Curve
+```math
+Price = m Supply + b
+```
+**Best for:**
+- Steady growth
+- Predictable pricing
+- Simple tokenomics
+- New projects
+
+**Characteristics:**
+- Constant price increase
+- Easy to understand
+- Lower volatility
+- Stable growth
+
+### 2. Exponential Curve
+```math
+Price = a e^(bSupply)
+```
+**Best for:**
+- Scarcity-driven tokens
+- Reward systems
+- Collector items
+- High-growth projects
+
+**Characteristics:**
+- Accelerating price growth
+- Early adopter benefits
+- Higher potential returns
+- More volatility
+
+### 3. Logarithmic Curve
+```math
+Price = a ln(Supply + 1) + b
+```
+**Best for:**
+- Utility tokens
+- Large supply tokens
+- Stable projects
+- Community currencies
+
+**Characteristics:**
+- Diminishing price growth
+- More stable long-term
+- Controlled appreciation
+- Lower volatility
+
+<Note>
+Choose your curve type carefully - it cannot be changed after token creation.
+</Note>
+
+## Choosing Your Curve
+
+### Factors to Consider
+1. **Project Goals**
+   - Growth expectations
+   - Target audience
+   - Token utility
+   - Market strategy
+
+2. **Economic Model**
+   - Supply dynamics
+   - Price targets
+   - Distribution plan
+   - Investment timeline
+
+### Use Case Examples
+
+<AccordionGroup>
+  <Accordion title="Community Token">
+    Recommended: Linear or Logarithmic
+    - Stable growth
+    - Fair distribution
+    - Predictable pricing
+    - Community friendly
+  </Accordion>
+  
+  <Accordion title="Collector Items">
+    Recommended: Exponential
+    - Scarcity value
+    - Early adoption rewards
+    - Price appreciation
+    - Exclusivity
+  </Accordion>
+  
+  <Accordion title="Utility Token">
+    Recommended: Logarithmic
+    - Controlled growth
+    - Sustainable pricing
+    - Wide accessibility
+    - Long-term stability
+  </Accordion>
+</AccordionGroup>
+
+## Curve Parameters
+
+### Key Settings
+1. **Initial Price**
+   - Starting point
+   - Entry barrier
+   - Market positioning
+   - Growth potential
+
+2. **Curve Steepness**
+   - Price sensitivity
+   - Growth rate
+   - Market dynamics
+   - Risk level
+
+### Parameter Impact
+
+#### Linear Curve
+- Slope affects price growth rate
+- Higher slope = faster price increase
+- Lower slope = more stable pricing
+- Consider market size
+
+#### Exponential Curve
+- Base affects growth acceleration
+- Higher base = steeper growth
+- Lower base = gentler curve
+- Plan carefully
+
+#### Logarithmic Curve
+- Coefficient affects curve shape
+- Higher = more initial growth
+- Lower = more gradual growth
+- Balance accessibility
+
+## Best Practices
+
+### Testing Strategy
+1. **Parameter Testing**
+   - Use test transactions
+   - Simulate scenarios
+   - Check price impacts
+   - Verify mechanics
+
+2. **Market Analysis**
+   - Study similar projects
+   - Analyze market size
+   - Consider competition
+   - Project growth
+
+### Risk Management
+1. **Price Protection**
+   - Set appropriate limits
+   - Plan for volatility
+   - Monitor activity
+   - Adjust parameters
+
+2. **Supply Control**
+   - Manage initial distribution
+   - Plan token releases
+   - Consider burning
+   - Monitor circulation
+
+## Advanced Topics
+
+### Price Impact
+- Understanding slippage
+- Large order effects
+- Market depth
+- Trading strategies
+
+### Liquidity Management
+- Reserve ratios
+- Pool balancing
+- Emergency measures
+- Market making
+
+## Next Steps
+
+Continue your learning:
+1. [Explore token metrics →](/tutorials/tokenomics/metrics-and-analysis)
+2. [Learn about marketing →](/tutorials/advanced/marketing-tools)
+3. [Start creating →](/documentation/get-started/create-first-asset)
+
+<Card title="Ready to Configure?" icon="chart-line">
+  Create your token with the perfect curve on [TokenFabric →](/documentation/get-started/create-first-asset)
+</Card>
+
+## Quick Reference
+
+### Curve Selection Checklist
+- [ ] Define project goals
+- [ ] Analyze target market
+- [ ] Choose curve type
+- [ ] Set parameters
+- [ ] Test thoroughly
+- [ ] Plan monitoring
+- [ ] Prepare launch
+
+<Tip>
+Start with conservative parameters - you can always adjust your strategy in future tokens.
+</Tip>
