@@ -35,8 +35,8 @@
 			"url": "sdk-integration"
 		},
     {
-			"name": "News & Updates",
-			"url": "devlogs"
+			"name": "Roadmap",
+			"url": "roadmap"
 		}
 	],
 	"anchors": [
@@ -92,8 +92,8 @@
 			]
 		},
     {
-			"group": "Devlogs",
-			"pages": ["devlogs/news"]
+			"group": "Roadmap",
+			"pages": ["roadmap/roadmap"]
 		},
 		{
 			"group": "Getting Started",
