@@ -102,6 +102,10 @@
 		{
 			"group": "Essentials",
 			"pages": ["tutorials/essentials/buying-sell-crypto-fiat", "tutorials/essentials/understanding-gas", "tutorials/essentials/transferring-assets", "tutorials/essentials/swapping-assets","tutorials/essentials/bridging-assets"]
+		},
+		{
+			"group": "General",
+			"pages": ["tutorials/general/import-thirdweb-wallet-in-metamask"]
 		}
 	],
 	"footerSocials": {
